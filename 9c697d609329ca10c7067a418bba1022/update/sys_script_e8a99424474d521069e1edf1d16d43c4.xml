@@ -15,10 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_snc_plant_mgmt_plants">pottery_conditionCHANGESTOdamaged^ORpottery_conditionCHANGESTObroken^ORpottery_conditionCHANGESTOneed_to_replace^EQ<item display_value="Damaged" endquery="false" field="pottery_condition" goto="false" newquery="false" operator="CHANGESTO" or="false" value="damaged"/>
-            <item display_value="Broken" endquery="false" field="pottery_condition" goto="false" newquery="false" operator="CHANGESTO" or="true" value="broken"/>
-            <item display_value="Need To Replaced" endquery="false" field="pottery_condition" goto="false" newquery="false" operator="CHANGESTO" or="true" value="need_to_replace"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_snc_plant_mgmt_plants">pottery_conditionCHANGESTOdamaged^ORpottery_conditionCHANGESTObroken^ORpottery_conditionCHANGESTOneed_to_replace^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
